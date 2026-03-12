@@ -1,0 +1,60 @@
+# === Agent Prompts & Workflows ===
+.agents/
+.agent/
+
+# === Virtual Environment ===
+venv/
+.venv/
+env/
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+
+# === Jupyter ===
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# === Saved Models & Features (large binary files) ===
+saved_models/
+saved_features/
+*.pt
+*.pth
+*.keras
+*.h5
+*.npy
+
+# === Training History ===
+training_history.json
+
+# === Output Images ===
+*.png
+*.jpg
+*.jpeg
+
+# === Logs & TF cache ===
+logs/
+*.log
+__pycache__/
+.tensorflow/
+
+# === OS ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === Temp scripts ===
+nb_code.txt
+extract_nb.py
